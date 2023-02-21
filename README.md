@@ -1,5 +1,4 @@
-# TensorFlow2_Objecte_detection
-
+# Training Custom Object Detector
 
 
 
