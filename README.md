@@ -1,6 +1,15 @@
 # Training Custom Object Detector
 
-
+###Create TensorFlow Records
+TensorFlow\workspace\training_demo\scripts\preprocessing>
+for train: 
+```
+python generate_tfrecord.py -x C:/Users/AINext-Gen/TensorFlow/workspace/training_demo/images/train -l C:/Users/AINext-Gen/TensorFlow/workspace/training_demo/annotations/label_map.pbtxt -o C:/Users/AINext-Gen/TensorFlow/workspace/training_demo/images/train.record
+```
+for test: 
+```
+python generate_tfrecord.py -x C:/Users/AINext-Gen/TensorFlow/workspace/training_demo/images/test -l C:/Users/AINext-Gen/TensorFlow/workspace/training_demo/annotations/label_map.pbtxt -o C:/Users/AINext-Gen/TensorFlow/workspace/training_demo/images/test.record
+```
 
 
 ### Training the Model
