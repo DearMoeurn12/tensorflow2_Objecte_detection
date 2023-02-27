@@ -32,4 +32,8 @@ tensorboard --logdir=models/my_ssd_mobilenet
 ```
 
 for bugging
-https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal
+```
+ from google.protobuf.internal import builder as _builder
+ImportError: cannot import name 'builder' from 'google.protobuf.internal' (C:\Users\DCLab\anaconda3\envs\tf\lib\site-packages\google\protobuf\internal\__init__.py)
+```
+Go to this Link https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal
